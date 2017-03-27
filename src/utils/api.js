@@ -5,6 +5,7 @@ const headers = {
   Accept: 'application/vnd.api+json, application/json, text/plain'
 };
 
+// Using JWT for authentication. Include the auth header if an auth token is set.
 if (window.localStorage.getItem('authToken')) {
   headers.Authorization = `Bearer ${window.localStorage.getItem('authToken')}`;
 }
