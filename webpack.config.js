@@ -16,16 +16,18 @@ module.exports = {
     extensions: ['.js', '.jsx']
   },
   module: {
-    loaders: {
-      test: /\.(js|jsx)$/,
-      include: [
-        path.resolve(__dirname, './src'),
-      ],
-      loader: 'babel-loader',
-      query: {
-        presets: ['react', 'es2015', 'stage-0'],
-        plugins: ['transform-decorators-legacy', 'transform-runtime']
+    loaders: [
+      {
+        test: /\.(js|jsx)$/,
+        include: [
+          path.resolve(__dirname, './src'),
+        ],
+        loader: 'babel-loader',
+        query: {
+          presets: ['react', 'es2015', 'stage-0'],
+          plugins: ['transform-decorators-legacy', 'transform-runtime']
+        }
       }
-    }
+    ]
   }
 };
