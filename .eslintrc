@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "airbnb"
+  ],
+  "parser": "babel-eslint",
+  "plugins": [],
+  "ecmaFeatures": {
+    "jsx": true,
+    "es6": true,
+    "classes": true
+  },
+  "globals": {
+    "document": true,
+    "window": true
+  },
+  "rules": {
+    "global-require": 0,
+    "comma-dangle": 0,
+    "arrow-body-style": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/jsx-no-bind": 0,
+    "react/no-unused-prop-types": 0,
+    "react/prefer-stateless-function": 0,
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": 0,
+    "react/require-default-props": 0
+  }
+}
