@@ -1,4 +1,4 @@
-import App from './components/App/index';
+import App from './components/App';
 
 // Pages
 import Landing from './pages/Landing';
