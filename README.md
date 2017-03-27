@@ -13,3 +13,6 @@ Running `yarn build` will build the bundle and output it to public/dist.
 
 ### Dev Server
 Running `yarn start` will start the webpack-dev-server on port 3500 with hot-module-replacement.
+
+### Testing
+Running `yarn test` will run any tests you have. By default it's configured to use Jest but can easily be swapped out for something else. `yarn snapshot` will run your test suite and rebuild snapshots.

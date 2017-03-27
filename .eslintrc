@@ -4,6 +4,9 @@
   ],
   "parser": "babel-eslint",
   "plugins": [],
+  "env": {
+    "jest": true
+  },
   "ecmaFeatures": {
     "jsx": true,
     "es6": true,
