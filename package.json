@@ -1,7 +1,7 @@
 {
   "name": "react-redux-starter",
   "version": "0.1.0",
-  "description": "Boilerplate React and Redux app that is configured to interact with any json-api based api.",
+  "description": "Boilerplate react and redux app for setting up new projects.",
   "main": "index.js",
   "author": "Mike Merritt <emmjemm@gmail.com>",
   "license": "MIT",
