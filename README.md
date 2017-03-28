@@ -16,3 +16,6 @@ Running `yarn start` will start the webpack-dev-server on port 3500 with hot-mod
 
 ### Testing
 Running `yarn test` will run any tests you have. By default it's configured to use Jest but can easily be swapped out for something else. `yarn snapshot` will run your test suite and rebuild snapshots.
+
+## TODO
+This currently does not have a solution for styling components. For now you'll need to implement your own solution.
