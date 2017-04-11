@@ -2,7 +2,7 @@
 Setting up a new project can be a pain. This is a boilerplate react and redux app for setting up new projects.
 
 ## Usage
-It's very simple to get up and running. Simply git clone this repo and npm/yarn install. I set this up using Yarn so I will refer to that when talking about commands. Simply use the NPM version of commands if that is your preferred package manager.
+It's very simple to get up and running. Simply clone this repo and npm/yarn install. I set this up using Yarn so I will refer to that when talking about commands. Use the NPM version of commands if that is your preferred package manager.
 
 I usually work in a Rails/React tech stack so by default it's configured for use with it's sister repo https://github.com/mikemerritt/rails-api-starter, which means that it expects a JSON API to be located at localhost:3000.
 
